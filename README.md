@@ -19,7 +19,7 @@ Simply copy the `user/plugins/markdown-notices/markdown-notices.yaml` into `user
 ```
 enabled: true
 built_in_css: true
-level_classes: [yellow, red, blue, green]
+level_classes: [notices-yellow, notices-red, notices-blue, notices-green]
 ```
 
 # Examples
@@ -36,7 +36,7 @@ Using one level of `!`
 You will output the following HTML
 
 ```
-<div class="notices yellow">
+<div class="notices notices-yellow">
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris feugiat quam erat, ut iaculis diam posuere nec.
         Vestibulum eu condimentum urna. Vestibulum feugiat odio ut sodales porta. Donec sit amet ante mi. Donec lobortis
